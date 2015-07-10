@@ -1,0 +1,5 @@
+docs
+.npmignore
+.travis.yml
+test/
+examples/

@@ -1,0 +1,32 @@
+{
+  "name": "nbn",
+  "version": "1.0.0",
+  "description": "Nothing But Net! Opinonated microservices combining seneca, hapi &rabbitmq",
+  "bin": "./cli.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/lab -a code",
+    "start": "node .",
+    "cli": "./node_modules/.bin/nbn"
+  },
+  "author": "Shaun Berryman <shaun@shaunberryman.com>",
+  "license": "ISC",
+  "repository": "sberryman/nbn",
+  "bugs": "https://github.com/sberryman/nbn/issues",
+  "homepage": "https://github.com/sberryman/nbn",
+  "dependencies": {
+    "joi": "^6.5.0",
+    "lodash": "^3.10.0",
+    "semver": "^4.3.6",
+    "seneca": "^0.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^0.24.0",
+    "eslint-plugin-hapi": "^1.2.0",
+    "lab": "^5.13.0"
+  },
+  "engines": {
+    "node": ">=0.10.36 <0.13",
+    "npm": "^2.9.0"
+  }
+}
