@@ -1,7 +1,7 @@
 {
   "name": "nbn",
   "version": "1.0.0",
-  "description": "Nothing But Net! Opinonated microservices combining seneca, hapi &rabbitmq",
+  "description": "Nothing But Net, an opinonated microservice utilizing seneca via rabbitmq (optionally hapi, statsd, hirefire & heroku)",
   "bin": "./cli.js",
   "main": "index.js",
   "scripts": {
